@@ -20,6 +20,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "almasaeed2010/adminlte": "~2.0",
         "wkii/yii2-adminlte": "^1.0",
+        "dmstr/yii2-adminlte-asset":"^2.1",
         "monolog/monolog": "^1.16",
         "rmccue/requests": "*",
         "phpoffice/phpexcel": "^1.8",

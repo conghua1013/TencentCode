@@ -28,6 +28,10 @@ class ComposerStaticInit8b5a1f57997d6b018dee9c34bd859c06
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
         ),
+        'r' => 
+        array (
+            'rmrevin\\yii\\fontawesome\\' => 24,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -36,6 +40,10 @@ class ComposerStaticInit8b5a1f57997d6b018dee9c34bd859c06
         array (
             'kartik\\select2\\' => 15,
             'kartik\\base\\' => 12,
+        ),
+        'd' => 
+        array (
+            'dmstr\\' => 6,
         ),
         'c' => 
         array (
@@ -130,6 +138,10 @@ class ComposerStaticInit8b5a1f57997d6b018dee9c34bd859c06
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'rmrevin\\yii\\fontawesome\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmrevin/yii2-fontawesome',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -143,6 +155,10 @@ class ComposerStaticInit8b5a1f57997d6b018dee9c34bd859c06
         'kartik\\base\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
+        ),
+        'dmstr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
         ),
         'cebe\\markdown\\' => 
         array (
@@ -243,6 +259,13 @@ class ComposerStaticInit8b5a1f57997d6b018dee9c34bd859c06
     );
 
     public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cebe\\gravatar\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/cebe/yii2-gravatar',
+            ),
+        ),
         'R' => 
         array (
             'Requests' => 
