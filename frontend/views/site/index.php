@@ -524,5 +524,5 @@ VALUES (&#39;[{&quot;patchs&quot;:[{&quot;title&quot;:&quot;ISV公司信息&quot
 
 <p><img src="http://troy-pub.yanzinet.cn/mweb/%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E5%BA%94%E7%94%A8%E5%AE%A1%E6%89%B9%E6%B5%81%E7%A8%8B.jpg" alt="开放平台应用审批流程"/></p>
 
-<p>Copyright © Beijing yanzinet Co., Ltd., All Rights Reserved <a href="http://beian.miit.gov.cn%E6%88%96http://www.beian.miit.gov.cn">京ICP备18002925号-2</a></p>
+<p>Copyright © Beijing yanzinet Co., Ltd., All Rights Reserved <a href="http://www.beian.miit.gov.cn">京ICP备18002925号-2</a></p>
 
