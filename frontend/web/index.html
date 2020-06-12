@@ -1,0 +1,52 @@
+<h3>websocket和http协议的区别</h3>
+<p>共同点:都是建立在TCP协议之上,通过TCP协议传输</p>
+<p>&nbsp;</p>
+<p>不同点:</p>
+<p><strong>http:</strong> 单向请求服务,是客户端发起请求,服务端被动响应,一个request对应一个 response</p>
+<p><strong>websocket</strong>: 双向通信协议,握手阶段依靠http协议,握手后不再依托http协议,直接走tcp</p>
+<p>&nbsp;</p>
+<h3>HTTP三次握手四次挥手</h3>
+<p>三次握手: 1.C我要链接; 2.S我准备好了,你可连接; 3.C我收到你的同意命令了;  开始发送数据</p>
+<p>四次握手: </p>
+<p>1.C我要断开了,收到请回复; </p>
+<p>2.S收到你的端口请求了,你等等我把数据发完</p>
+<p>3.S数据发完了,可以断开,收到请回复;</p>
+<p>4.C收到,断开;</p>
+<h3>网络四层协议</h3>
+<ol>
+<li>应用层(http https)</li>
+<li>传输层(tcp udp)</li>
+<li>网络层(ip)</li>
+<li>链路层(驱动程序)</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>mysql事务隔离级别</h3>
+<p>读提交 RC</p>
+<p>读未提交 RUC</p>
+<p>读可重复 RR </p>
+<p>序列 S</p>
+<h3>mysql锁的原理</h3>
+<p>&nbsp;</p>
+<h3>PHP的session原理</h3>
+<p>&nbsp;</p>
+<h3>redis数据类型和实现原理</h3>
+<p><strong>数据类型</strong></p>
+<p>string</p>
+<p>list</p>
+<p>set</p>
+<p>zset</p>
+<p>hash</p>
+<p><strong>实现原理</strong></p>
+<p>redis内部实现了一套自己的数据类型结构对象</p>
+<p>这个对象的结构体, type 数据类型, encode 编码格式 ptr 实际数据对象地址</p>
+<p>一种数据类型,存在多种编码格式,对应不同的底层结构体</p>
+<p>encode 的编码类型有, 简单字符串, 整数类型, 压缩列表, 字典, 链表, 跳跃链表等</p>
+<h3>手写适配器模式</h3>
+<p>(以数据库连接为例, 连接,查询,关闭)</p>
+<p>1.定义一个统一接口类,</p>
+<p>2.多个不同场景实现这个接口类</p>
+<h3>算法</h3>
+<p>&nbsp;</p>
+<h3>sql优化</h3>
+<p>&nbsp;</p>
